@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container_header">
+            <div id = "title">
+                <h1 class = "big">
+                    What Disney Princess Are You?
+                </h1>
+                <h2 class = "small"> 
+                    <em>Have a favorite Disney princess? Would you be her? Find out! (Click the pic!)</em>
+                </h2>
+        </div>
+            <img src ="/pic/princess.png" id = "princess_pic">
+        </div>
+        <!-- images from pixabay.com -->
+        <div class = "questions">
+            <div class = "header2">What is your ideal way to spend your free time? </div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="ariel1" value="Ariel4"/>
+                            <img src ="/pic/shop.jpg" class= "question_pic">
+                        </label>  
+                        <p class = "caption">Shopping</p>                      
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="cinderella1" value="Cinderella6"/>
+                            <img src ="/pic/dance.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Dancing</p>
+                    </div>
+                </div>
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="belle1" value="Belle6"/>
+                            <img src ="/pic/reading.jpg" class = "question_pic">
+                        </label>                        
+                        <p class = "caption">Reading</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="snow1" value="Snow5"/>
+                            <img src ="/pic/bake.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Baking</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="aurora1" value="Aurora5"/>
+                            <img src ="/pic/nap.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Napping</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="jasmine1" value="Jasmine4"/>
+                            <img src ="/pic/friends.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Talking to friends</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="pocahontas1" value="Pocahontas5"/>
+                            <img src ="/pic/hiking.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Hiking</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="freetime" id="mulan1" value="Mulan6"/>
+                            <img src ="/pic/sports.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Practice a sport</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "questions">
+            <div class = "header2">What is your favorite place to study? </div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="study" id="aurora2" value="Aurora6"/>
+                        <div  class = "individual_text">In bed</div>
+                    </label>
+
+                    <label class="text_label">
+                        <input type="radio" name="study" id="belle2" value="Belle5"/>
+                        <div  class = "individual_text">Library</div>
+                    </label>
+                </div>
+                <div class="pic_row">
+
+                    <label class="text_label">
+                        <input type="radio" name="study" id="cinderella2" value="Cinderella3"/>
+                        <div  class = "individual_text">Cafe</div>
+                    </label>
+
+                    <label class="text_label">
+                        <input type="radio" name="study" id="mulan2" value="Mulan3"/>
+                        <div  class = "individual_text">Somewhere adventurous</div>
+                    </label>
+                </div>
+
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="study" id="ariel2" value="Ariel2"/>
+                        <div  class = "individual_text">Student lounge</div>
+                    </label>
+
+                    <label class="text_label">
+                        <input type="radio" name="study" id="jasmine2" value="Jasmine3"/>
+                        <div  class = "individual_text">Desk</div>
+                    </label>
+                </div>
+
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="study" id="pocahontas2" value="Pocahontas6"/>
+                        <div  class = "individual_text">Outside</div>
+                    </label>
+                    <label class="text_label">
+                        <input type="radio" name="study" id="snow2" value="Snow3"/>
+                        <div  class = "individual_text">Dining Hall</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class = "questions">
+            <div class = "header2">What is your ideal date? </div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="snow3" value="Snow6"/>
+                            <img src ="/pic/zoo.jpg" class = "question_pic">                        </label>
+                        <p class = "caption">Zoo</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="aurora3" value="Aurora3"/>
+                            <img src ="/pic/dinner.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Nice dinner</p>
+                    </div>
+                </div>
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="belle3" value="Belle1"/>
+                            <img src ="/pic/movie.jpg" class = "question_pic">                        </label>
+                        <p class = "caption">Movie</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="cinderella3" value="Cinderella4"/>
+                            <img src ="/pic/swing.jpg" class = "question_pic">                        </label>
+                        <p class = "caption">Swing dance</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="ariel3" value="Ariel6"/>
+                            <img src ="/pic/beach.jpg" class = "question_pic">                        </label>
+                        <p class = "caption">Beach walk</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="jasmine3" value="Jasmine6"/>
+                            <img src ="/pic/rollercoaster.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Rollercoaster</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="pocahontas3" value="Pocahontas2"/>
+                            <img src ="/pic/picnic.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Picnic</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="date" id="mulan3" value="Mulan4"/>
+                            <img src ="/pic/rock.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Rock climbing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "questions">
+            <div class = "header2">What is your favorite drink?</div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="aurora4" value="Aurora4"/>
+                            <img src ="/pic/wine.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Wine</p>
+                    </div>
+
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="mulan4" value="Mulan1"/>
+                            <img src ="/pic/kombucha.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Kombucha</p>
+                    </div>
+                </div>
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="pocahontas4" value="Pocahontas3"/>
+                            <img src ="/pic/water.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Water</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="cinderella4" value="Cinderella2"/>
+                            <img src ="/pic/hotchoc.jpg" class = "question_pic">
+                        </label>                        
+                        <p class = "caption">Hot chocolate</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="belle4" value="Belle3"/>
+                            <img src ="/pic/coffee.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Coffee</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="jasmine4" value="Jasmine2"/>
+                            <img src ="/pic/tea.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Tea</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="ariel4" value="Ariel1"/>
+                            <img src ="/pic/soda.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Soda</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="drink" id="snow4" value="Snow4"/>
+                            <img src ="/pic/juice.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Juice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "questions">
+            <div class = "header2">What is your favorite subject? </div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="mulan5" value="Mulan5"/>
+                        <div  class = "individual_text">PE</div>
+                    </label>
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="pocanhontas5" value="Pocahontas4"/>
+                        <div  class = "individual_text">Art</div>
+                </div>
+
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="cinderella5" value="Cinderella5"/>
+                        <div  class = "individual_text">Music</div>
+                    </label>
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="aurora5" value="Aurora2"/>
+                        <div  class = "individual_text">Math</div>
+                    </label>
+                </div>
+
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="belle5" value="Belle4"/>
+                        <div  class = "individual_text">Reading</div>
+                    </label>
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="snow5" value="Snow1"/>
+                        <div  class = "individual_text">Writing</div>
+                    </label>
+                </div>
+
+                <div class="pic_row">
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="ariel5" value="Ariel5"/>
+                        <div  class = "individual_text">Science</div>
+                    </label>
+                    <label class="text_label">
+                        <input type="radio" name="subject" id="jasmine5" value="Jasmine5"/>
+                        <div  class = "individual_text">History</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class = "questions">
+            <div class = "header2">What is your favorite food?</div>
+            <div class = "pictures">
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="aurora6" value="Aurora1"/>
+                            <img src ="/pic/pasta.jpg" class = "question_pic">
+                        </label>                        
+                        <p class = "caption">Pasta</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="pocahontas6" value="Pocahontas1"/>
+                            <img src ="/pic/salad.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Salad</p>
+                    </div>
+                </div>
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="belle6" value="Belle2"/>
+                            <img src ="/pic/cake.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Cake</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="cinderella6" value="Cinderella1"/>
+                            <img src ="/pic/hamburger.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Burger</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="ariel6" value="Ariel3"/>
+                            <img src ="/pic/sushi.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Sushi</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="snow6" value="Snow2"/>
+                            <img src ="/pic/soup.jpg" class = "question_pic">
+                        </label>
+                        <p class = "caption">Soup</p>
+                    </div>
+                </div>
+
+                <div class="pic_row">
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="mulan6" value="Mulan2"/>
+                            <img src ="/pic/padthai.jpg" class = "question_pic">
+                        </label>                        
+                        <p class = "caption">Pad Thai</p>
+                    </div>
+                    <div class = "individual_pic">
+                        <label class = "image_container">
+                            <input type="radio" name="favfood" id="jasmine6" value="Jasmine1"/>
+                            <img src ="/pic/tacos.jpg" class = "question_pic">
+                        </label>                        
+                        <p class = "caption">Tacos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "submit">
+            <button type="button" class = "submitbutton">Submit</button>
+        </div>
+
+        <div id = "result-modal">
+            <div id = "modal-text">
+                <h1>You got: </h1>
+                <p id = "result">result</p> 
+                <div id = "result-image">
+
+                </div>
+                <button type ="button" id ="exit">&#10005;</button>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>

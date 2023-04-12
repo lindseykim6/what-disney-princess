@@ -1,7 +1,7 @@
 {
     "title": "What Disney Princess Are You",
     "subtitle": "Have a favorite Disney Princess? Would you be her? Find out! (Click the pic!)",
-    "img": "/pic/princess.png",
+    "mainimg": "/pic/princess.png",
     "outcomes": {
             "outcome1": {"img": "/pic/Jasmine.png", "text": "Jasmine"},
             "outcome2": {"img": "/pic/Ariel.png", "text": "Ariel"},
@@ -20,42 +20,42 @@
                 {
                     "text": "Shopping",
                     "img_url": "/pic/shop.jpg",
-                    "outcome": "Ariel4"
+                    "outcome": "outcome24"
                 },
                 {
                     "text": "Dancing",
                     "img_url": "/pic/dance.jpg",
-                    "outcome": "Cinderella6"
+                    "outcome": "outcome36"
                 },
                 {
                     "text": "Reading",
                     "img_url": "/pic/reading.jpg",
-                    "outcome": "Belle6"
+                    "outcome": "outcome66"
                 },
                 {
                     "text": "Baking",
                     "img_url": "/pic/bake.jpg",
-                    "outcome": "Snow5"
+                    "outcome": "outcome75"
                 },
                 {
                     "text": "Napping",
                     "img_url": "/pic/nap.jpg",
-                    "outcome": "Aurora5"
+                    "outcome": "outcome45"
                 },
                 {
                     "text": "Talking to friends",
                     "img_url": "/pic/friends.jpg",
-                    "outcome": "Jasmine4"
+                    "outcome": "outcome14"
                 },
                 {
                     "text": "Hiking",
                     "img_url": "/pic/hiking.jpg",
-                    "outcome": "Pocahontas5"
+                    "outcome": "outcome55"
                 },
                 {
                     "text": "Practice a sport",
                     "img_url": "/pic/sports.jpg",
-                    "outcome": "Mulan6"
+                    "outcome": "outcome86"
                 }
 
             ]
@@ -66,35 +66,35 @@
             "answers": [
                 {
                     "text": "In bed",
-                    "outcome": "Aurora6"
+                    "outcome": "outcome46"
                 },
                 {
                     "text": "Library",
-                    "outcome": "Belle5"
+                    "outcome": "outcome65"
                 },
                 {
                     "text": "Cafe",
-                    "outcome": "Cinderella3"
+                    "outcome": "outcome33"
                 },
                 {
                     "text": "Somewhere adventurous",
-                    "outcome": "Mulan3"
+                    "outcome": "outcome83"
                 },
                 {
                     "text": "Student lounge",
-                    "outcome": "Ariel2"
+                    "outcome": "outcome22"
                 },
                 {
                     "text": "Desk",
-                    "outcome": "Jasmine3"
+                    "outcome": "outcome13"
                 },
                 {
                     "text": "Outside",
-                    "outcome": "Pocahontas6"
+                    "outcome": "outcome56"
                 },
                 {
                     "text": "Dining Hall",
-                    "outcome": "Snow3"
+                    "outcome": "outcome73"
                 }
 
             ]
@@ -104,44 +104,44 @@
             "question_img_url": "/pic/date.jpg",
             "answers": [
                 {
-                    "text": "Shopping",
-                    "img_url": "/pic/shop.jpg",
-                    "outcome": "outcome2"
+                    "text": "Zoo",
+                    "img_url": "/pic/zoo.jpg",
+                    "outcome": "outcome76"
                 },
                 {
-                    "text": "Dancing",
-                    "img_url": "/pic/dance.jpg",
-                    "outcome": "outcome3"
+                    "text": "Nice dinner",
+                    "img_url": "/pic/dinner.jpg",
+                    "outcome": "outcome43"
                 },
                 {
-                    "text": "Reading",
-                    "img_url": "/pic/reading.jpg",
-                    "outcome": "outcome6"
+                    "text": "Movie",
+                    "img_url": "/pic/movie.jpg",
+                    "outcome": "outcome61"
                 },
                 {
-                    "text": "Baking",
-                    "img_url": "/pic/bake.jpg",
-                    "outcome": "outcome7"
+                    "text": "Swing dancing",
+                    "img_url": "/pic/swing.jpg",
+                    "outcome": "outcome34"
                 },
                 {
-                    "text": "Napping",
-                    "img_url": "/pic/nap.jpg",
-                    "outcome": "outcome4"
+                    "text": "Beach walk",
+                    "img_url": "/pic/beach.jpg",
+                    "outcome": "outcome26"
                 },
                 {
-                    "text": "Talking to friends",
-                    "img_url": "/pic/friends.jpg",
-                    "outcome": "outcome1"
+                    "text": "Rollercoaster",
+                    "img_url": "/pic/rollercoaster.jpg",
+                    "outcome": "outcome16"
                 },
                 {
-                    "text": "Hiking",
-                    "img_url": "/pic/hiking.jpg",
-                    "outcome": "outcome5"
+                    "text": "Picnic",
+                    "img_url": "/pic/picnic.jpg",
+                    "outcome": "outcome52"
                 },
                 {
-                    "text": "Practice a sport",
-                    "img_url": "/pic/sports.jpg",
-                    "outcome": "outcome8"
+                    "text": "Rock climbing",
+                    "img_url": "/pic/rock.jpg",
+                    "outcome": "outcome84"
                 }
 
             ]
@@ -153,42 +153,42 @@
                 {
                     "text": "Wine",
                     "img_url": "/pic/wine.jpg",
-                    "outcome": "Aurora4"
+                    "outcome": "outcome44"
                 },
                 {
                     "text": "Kombucha",
                     "img_url": "/pic/kombucha.jpg",
-                    "outcome": "Mulan1"
+                    "outcome": "outcome81"
                 },
                 {
                     "text": "Water",
                     "img_url": "/pic/water.jpg",
-                    "outcome": "Pocahontas3"
+                    "outcome": "outcome53"
                 },
                 {
                     "text": "Hot chocolate",
                     "img_url": "/pic/hotchoc.jpg",
-                    "outcome": "Cinderella2"
+                    "outcome": "outcome32"
                 },
                 {
                     "text": "Coffee",
                     "img_url": "/pic/coffee.jpg",
-                    "outcome": "Belle3"
+                    "outcome": "outcome63"
                 },
                 {
                     "text": "Tea",
                     "img_url": "/pic/tea.jpg",
-                    "outcome": "Jasmine2"
+                    "outcome": "outcome12"
                 },
                 {
                     "text": "Soda",
                     "img_url": "/pic/soda.jpg",
-                    "outcome": "Ariel1"
+                    "outcome": "outcome21"
                 },
                 {
                     "text": "Juice",
                     "img_url": "/pic/juice.jpg",
-                    "outcome": "Snow4"
+                    "outcome": "outcome74"
                 }
 
             ]
@@ -199,35 +199,35 @@
             "answers": [
                 {
                     "text": "PE",
-                    "outcome": "Mulan5"
+                    "outcome": "outcome85"
                 },
                 {
                     "text": "Art",
-                    "outcome": "Pocahontas4"
+                    "outcome": "outcome54"
                 },
                 {
                     "text": "Music",
-                    "outcome": "Cinderella5"
+                    "outcome": "outcome35"
                 },
                 {
                     "text": "Math",
-                    "outcome": "Aurora2"
+                    "outcome": "outcome42"
                 },
                 {
                     "text": "Reading",
-                    "outcome": "Belle4"
+                    "outcome": "outcome64"
                 },
                 {
                     "text": "Writing",
-                    "outcome": "Snow1"
+                    "outcome": "outcome71"
                 },
                 {
                     "text": "Science",
-                    "outcome": "Ariel5"
+                    "outcome": "outcome25"
                 },
                 {
                     "text": "History",
-                    "outcome": "Jasmine5"
+                    "outcome": "outcome15"
                 }
 
             ]
@@ -239,42 +239,42 @@
                 {
                     "text": "Pasta",
                     "img_url": "/pic/pasta.jpg",
-                    "outcome": "Aurora1"
+                    "outcome": "outcome41"
                 },
                 {
                     "text": "Salad",
                     "img_url": "/pic/salad.jpg",
-                    "outcome": "Pocahontas1"
+                    "outcome": "outcome51"
                 },
                 {
                     "text": "Cake",
                     "img_url": "/pic/cake.jpg",
-                    "outcome": "Belle2"
+                    "outcome": "outcome62"
                 },
                 {
                     "text": "Burger",
                     "img_url": "/pic/hamburger.jpg",
-                    "outcome": "Cinderella1"
+                    "outcome": "outcome31"
                 },
                 {
                     "text": "Sushi",
                     "img_url": "/pic/sushi.jpg",
-                    "outcome": "Ariel3"
+                    "outcome": "outcome23"
                 },
                 {
                     "text": "Soup",
                     "img_url": "/pic/soup.jpg",
-                    "outcome": "Snow2"
+                    "outcome": "outcome72"
                 },
                 {
                     "text": "Pad Thai",
                     "img_url": "/pic/padthai.jpg",
-                    "outcome": "Mulan2"
+                    "outcome": "outcome82"
                 },
                 {
                     "text": "Tacos",
                     "img_url": "/pic/tacos.jpg",
-                    "outcome": "Jasmine1"
+                    "outcome": "outcome11"
                 }
 
             ]

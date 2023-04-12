@@ -94,8 +94,7 @@ Spins object with an animation */
     margin-bottom: 3%;
 }
 
-#freetime{
-    background-image: url("/pic/freetime.jpg");  
+#set1{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -103,8 +102,7 @@ Spins object with an animation */
     
 }
 
-#study{
-    background-image: url("/pic/study.jpg");  
+#set2{
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
@@ -112,8 +110,7 @@ Spins object with an animation */
     
 }
 
-#date{
-    background-image: url("/pic/date.jpg");  
+#set3{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -121,8 +118,7 @@ Spins object with an animation */
     
 }
 
-#drink{
-    background-image: url("/pic/drink.jpg");  
+#set4{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -130,8 +126,7 @@ Spins object with an animation */
     
 }
 
-#subject{
-    background-image: url("/pic/subject.jpg");  
+#set5{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -140,8 +135,7 @@ Spins object with an animation */
     
 }
 
-#favfood{
-    background-image: url("/pic/favfood.jpg");  
+#set6{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

@@ -1,0 +1,282 @@
+{
+    "title": "What Disney Princess Are You",
+    "subtitle": "Have a favorite Disney Princess? Would you be her? Find out! (Click the pic!)",
+    "img": "/pic/princess.png",
+    "outcomes": {
+            "outcome1": {"img": "/pic/Jasmine.png", "text": "Jasmine"},
+            "outcome2": {"img": "/pic/Ariel.png", "text": "Ariel"},
+            "outcome3": {"img": "/pic/Cinderella.png", "text": "Cinderella"},
+            "outcome4": {"img": "/pic/Aurora.png", "text": "Aurora"},
+            "outcome5": {"img": "/pic/Pocahontas.png", "text": "Pocahontas"},
+            "outcome6": {"img": "/pic/Belle.png", "text": "Belle"},
+            "outcome7": {"img": "/pic/Snow.png", "text": "Snow White"},
+            "outcome8": {"img": "/pic/Mulan.png", "text": "Mulan"}
+    },
+    "questions": [
+        {
+            "question_name": "What is your ideal way to spend your free time?",
+            "question_img_url": "/pic/freetime.jpg",
+            "answers": [
+                {
+                    "text": "Shopping",
+                    "img_url": "/pic/shop.jpg",
+                    "outcome": "Ariel4"
+                },
+                {
+                    "text": "Dancing",
+                    "img_url": "/pic/dance.jpg",
+                    "outcome": "Cinderella6"
+                },
+                {
+                    "text": "Reading",
+                    "img_url": "/pic/reading.jpg",
+                    "outcome": "Belle6"
+                },
+                {
+                    "text": "Baking",
+                    "img_url": "/pic/bake.jpg",
+                    "outcome": "Snow5"
+                },
+                {
+                    "text": "Napping",
+                    "img_url": "/pic/nap.jpg",
+                    "outcome": "Aurora5"
+                },
+                {
+                    "text": "Talking to friends",
+                    "img_url": "/pic/friends.jpg",
+                    "outcome": "Jasmine4"
+                },
+                {
+                    "text": "Hiking",
+                    "img_url": "/pic/hiking.jpg",
+                    "outcome": "Pocahontas5"
+                },
+                {
+                    "text": "Practice a sport",
+                    "img_url": "/pic/sports.jpg",
+                    "outcome": "Mulan6"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What is your favorite place to study?",
+            "question_img_url": "/pic/study.jpg",
+            "answers": [
+                {
+                    "text": "In bed",
+                    "outcome": "Aurora6"
+                },
+                {
+                    "text": "Library",
+                    "outcome": "Belle5"
+                },
+                {
+                    "text": "Cafe",
+                    "outcome": "Cinderella3"
+                },
+                {
+                    "text": "Somewhere adventurous",
+                    "outcome": "Mulan3"
+                },
+                {
+                    "text": "Student lounge",
+                    "outcome": "Ariel2"
+                },
+                {
+                    "text": "Desk",
+                    "outcome": "Jasmine3"
+                },
+                {
+                    "text": "Outside",
+                    "outcome": "Pocahontas6"
+                },
+                {
+                    "text": "Dining Hall",
+                    "outcome": "Snow3"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What is your ideal date?",
+            "question_img_url": "/pic/date.jpg",
+            "answers": [
+                {
+                    "text": "Shopping",
+                    "img_url": "/pic/shop.jpg",
+                    "outcome": "outcome2"
+                },
+                {
+                    "text": "Dancing",
+                    "img_url": "/pic/dance.jpg",
+                    "outcome": "outcome3"
+                },
+                {
+                    "text": "Reading",
+                    "img_url": "/pic/reading.jpg",
+                    "outcome": "outcome6"
+                },
+                {
+                    "text": "Baking",
+                    "img_url": "/pic/bake.jpg",
+                    "outcome": "outcome7"
+                },
+                {
+                    "text": "Napping",
+                    "img_url": "/pic/nap.jpg",
+                    "outcome": "outcome4"
+                },
+                {
+                    "text": "Talking to friends",
+                    "img_url": "/pic/friends.jpg",
+                    "outcome": "outcome1"
+                },
+                {
+                    "text": "Hiking",
+                    "img_url": "/pic/hiking.jpg",
+                    "outcome": "outcome5"
+                },
+                {
+                    "text": "Practice a sport",
+                    "img_url": "/pic/sports.jpg",
+                    "outcome": "outcome8"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What is your favorite drink?",
+            "question_img_url": "/pic/drink.jpg",
+            "answers": [
+                {
+                    "text": "Wine",
+                    "img_url": "/pic/wine.jpg",
+                    "outcome": "Aurora4"
+                },
+                {
+                    "text": "Kombucha",
+                    "img_url": "/pic/kombucha.jpg",
+                    "outcome": "Mulan1"
+                },
+                {
+                    "text": "Water",
+                    "img_url": "/pic/water.jpg",
+                    "outcome": "Pocahontas3"
+                },
+                {
+                    "text": "Hot chocolate",
+                    "img_url": "/pic/hotchoc.jpg",
+                    "outcome": "Cinderella2"
+                },
+                {
+                    "text": "Coffee",
+                    "img_url": "/pic/coffee.jpg",
+                    "outcome": "Belle3"
+                },
+                {
+                    "text": "Tea",
+                    "img_url": "/pic/tea.jpg",
+                    "outcome": "Jasmine2"
+                },
+                {
+                    "text": "Soda",
+                    "img_url": "/pic/soda.jpg",
+                    "outcome": "Ariel1"
+                },
+                {
+                    "text": "Juice",
+                    "img_url": "/pic/juice.jpg",
+                    "outcome": "Snow4"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What is your favorite subject",
+            "question_img_url": "/pic/subject.jpg",
+            "answers": [
+                {
+                    "text": "PE",
+                    "outcome": "Mulan5"
+                },
+                {
+                    "text": "Art",
+                    "outcome": "Pocahontas4"
+                },
+                {
+                    "text": "Music",
+                    "outcome": "Cinderella5"
+                },
+                {
+                    "text": "Math",
+                    "outcome": "Aurora2"
+                },
+                {
+                    "text": "Reading",
+                    "outcome": "Belle4"
+                },
+                {
+                    "text": "Writing",
+                    "outcome": "Snow1"
+                },
+                {
+                    "text": "Science",
+                    "outcome": "Ariel5"
+                },
+                {
+                    "text": "History",
+                    "outcome": "Jasmine5"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What is your favorite food?",
+            "question_img_url": "/pic/favfood.jpg",
+            "answers": [
+                {
+                    "text": "Pasta",
+                    "img_url": "/pic/pasta.jpg",
+                    "outcome": "Aurora1"
+                },
+                {
+                    "text": "Salad",
+                    "img_url": "/pic/salad.jpg",
+                    "outcome": "Pocahontas1"
+                },
+                {
+                    "text": "Cake",
+                    "img_url": "/pic/cake.jpg",
+                    "outcome": "Belle2"
+                },
+                {
+                    "text": "Burger",
+                    "img_url": "/pic/hamburger.jpg",
+                    "outcome": "Cinderella1"
+                },
+                {
+                    "text": "Sushi",
+                    "img_url": "/pic/sushi.jpg",
+                    "outcome": "Ariel3"
+                },
+                {
+                    "text": "Soup",
+                    "img_url": "/pic/soup.jpg",
+                    "outcome": "Snow2"
+                },
+                {
+                    "text": "Pad Thai",
+                    "img_url": "/pic/padthai.jpg",
+                    "outcome": "Mulan2"
+                },
+                {
+                    "text": "Tacos",
+                    "img_url": "/pic/tacos.jpg",
+                    "outcome": "Jasmine1"
+                }
+
+            ]
+        }
+    ]}

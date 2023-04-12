@@ -68,7 +68,6 @@ $('#submit').on('click', function(e) {
         // Used this website to show and use the modal
         var query = $(`#result`);
         query.text(`${max_name}`);
-        console.log(query.html());
         var result_modal=document.getElementById("result-modal");
         result_modal.style.display="flex";
 
@@ -78,8 +77,42 @@ $('#submit').on('click', function(e) {
             result_modal.style.display="none";
             document.getElementById("result-image").innerHTML=''
         })
-
+        
+        
     }
 
 
+  });
+
+  $.getJSON("data.json", function(data) {
+    // now you can do something with this data.
+    // remember you can only work with the data in this callback
+    // data.title has the title
+    // maybe you want to loop through data.questions?
+    var ti = $(`#ti`);
+    ti.text(`${data.title}`);
+
+    var st = $(`#subtitle`);
+    st.text(`${data.subtitle}`);
+
+    var questions= document.getElementsByClassName("header2");
+    for(let i =0; i < data.questions.length; i++) {
+        questions[i].innerHTML =(`${data.questions[i].question_name}`);
+    }
+
+    // var pic= document.getElementsByClassName("question_pic");
+    // console.log(pic);
+    // const ind= [0,2,3,5];
+    // for(let i =0; i < ind.length; i++) {
+    //     let k=0;
+    //     for(let j =0; j < pic.length; j++)  {
+    //         pic[j].src =(`${data.questions[ind[i]].answers[k].img_url}`);
+    //         if(k==7) {
+    //             k =0;
+    //         }
+    //         else{
+    //             k+=1;
+    //         }
+    //     }
+    // }
   });

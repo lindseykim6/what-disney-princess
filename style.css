@@ -78,19 +78,77 @@ Spins object with an animation */
     margin-bottom: 13%;
 }
 
+
+
 .questions .header2 {
     display: flex;
     width: 90%;
+    height: 20vh;
     padding: 5% 5% 5% 5%;
     border-radius: 10px;
-    background-color: aqua;    
-    font-size: 20px;
+    font-size: 40px;
     justify-content: center;
     text-align: center;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 3%;
 }
+
+#freetime{
+    background-image: url("/pic/freetime.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+#study{
+    background-image: url("/pic/study.jpg");  
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+#date{
+    background-image: url("/pic/date.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+#drink{
+    background-image: url("/pic/drink.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+#subject{
+    background-image: url("/pic/subject.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#favfood{
+    background-image: url("/pic/favfood.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
 
 .questions .pictures {
     width: 100%;
@@ -184,7 +242,6 @@ Spins object with an animation */
     overflow: hidden;
     
 }
-
 
 input[type="radio"]{
     position: absolute;

@@ -28,23 +28,23 @@ $.getJSON("data.json", function(data) {
     // remember you can only work with the data in this callback
     // data.title has the title
     // maybe you want to loop through data.questions?
-    var ti = $(`#ti`);
+    let ti = $(`#ti`);
     ti.text(`${data.title}`);
 
-    var st = $(`#subtitle`);
+    let st = $(`#subtitle`);
     st.text(`${data.subtitle}`);
 
-    var img = document.getElementById("princess_pic");
+    let img = document.getElementById("princess_pic");
     img.src= (`${data.mainimg}`);
 
-    var questions= document.getElementsByClassName("header2");
+    let questions= document.getElementsByClassName("header2");
     for(let i =0; i < data.questions.length; i++) {
         questions[i].innerHTML =(`${data.questions[i].question_name}`);
         questions[i].style.backgroundImage =("url("+`${data.questions[i].question_img_url}`+")");
     }
 
-    var pic= document.getElementsByClassName("question_pic");
-    var caption= document.getElementsByClassName("caption");
+    let pic= document.getElementsByClassName("question_pic");
+    let caption= document.getElementsByClassName("caption");
     
     const ind= [0,2,3,5];
     let k=0;
@@ -56,7 +56,7 @@ $.getJSON("data.json", function(data) {
         }
     }
 
-    var it= document.getElementsByClassName("individual_text");
+    let it= document.getElementsByClassName("individual_text");
     const ind2=[1,4];
     k=0;
     for(let i =0; i < ind2.length; i++) {
@@ -66,7 +66,7 @@ $.getJSON("data.json", function(data) {
         }
     }
 
-    var input= document.getElementsByClassName("input");
+    let input= document.getElementsByClassName("input");
     k=0;
     for(let i =0; i < data.questions.length; i++) {
         for(let j =0; j < data.questions[i].answers.length; j++) {
@@ -77,7 +77,7 @@ $.getJSON("data.json", function(data) {
 
     $('#submit').on('click', function(e) {
         // gather all checked radio-button values
-        var choices = $("input[type='radio']:checked").map(function(i, radio) {
+        let choices = $("input[type='radio']:checked").map(function(i, radio) {
           return $(radio).val();
         }).toArray();
         
@@ -93,9 +93,9 @@ $.getJSON("data.json", function(data) {
             }
         })
         
-        var sum =0;
-        var max = 0;
-        var max_name = null;
+        let sum =0;
+        let max = 0;
+        let max_name = null;
     
         console.log(count);
     
@@ -111,7 +111,7 @@ $.getJSON("data.json", function(data) {
             alert("Please answer all questions!");
         } 
         else{
-            var query = $(`#result`);
+            let query = $(`#result`);
             if(max_name=="outcome1") {
                 document.getElementById("result-image").innerHTML += `<img src =` + data.outcomes.outcome1.img + ` id = "result_pic">`;
                 query.text(`${data.outcomes.outcome1.text}`);
@@ -146,7 +146,7 @@ $.getJSON("data.json", function(data) {
             }
             // https://www.w3schools.com/howto/howto_css_modals.asp
             // Used this website to show and use the modal
-            var result_modal=document.getElementById("result-modal");
+            let result_modal=document.getElementById("result-modal");
             result_modal.style.display="flex";
     
             $('#modal-text').addClass('decorate');
